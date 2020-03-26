@@ -1,0 +1,7 @@
+#import "./UserDetail.graphql"
+
+mutation DeleteUser($id: ID!) {
+  deleteUser(_id: $id) {
+      ...UserDetail
+  }
+}

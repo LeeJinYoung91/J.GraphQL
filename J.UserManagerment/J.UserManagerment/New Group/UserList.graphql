@@ -1,0 +1,7 @@
+#import "./UserDetail.graphql"
+
+query UserList {
+  allUser {
+    ...UserDetail
+  }
+}

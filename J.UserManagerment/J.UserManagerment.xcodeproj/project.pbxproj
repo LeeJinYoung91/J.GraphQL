@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10155E15242C305E00E5C73E /* UserDetail.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 10155E14242C305E00E5C73E /* UserDetail.graphql */; };
+		10155E17242C356C00E5C73E /* RemoveUser.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 10155E16242C356C00E5C73E /* RemoveUser.graphql */; };
 		101634FE2404B4DF00E47B1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101634FD2404B4DF00E47B1A /* AppDelegate.swift */; };
 		101635002404B4DF00E47B1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101634FF2404B4DF00E47B1A /* SceneDelegate.swift */; };
-		101635022404B4DF00E47B1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101635012404B4DF00E47B1A /* ViewController.swift */; };
 		101635052404B4DF00E47B1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101635032404B4DF00E47B1A /* Main.storyboard */; };
 		101635072404B4E100E47B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101635062404B4E100E47B1A /* Assets.xcassets */; };
 		1016350A2404B4E100E47B1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101635082404B4E100E47B1A /* LaunchScreen.storyboard */; };
+		101635142404F85400E47B1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101635132404F85400E47B1A /* UIKit.framework */; };
+		107797CA2429A5A100BB899C /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107797C92429A5A100BB899C /* UserListCell.swift */; };
+		107797CE2429A68B00BB899C /* UserListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107797CD2429A68B00BB899C /* UserListTableViewController.swift */; };
+		1097D5722408A34000920919 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1097D5712408A34000920919 /* API.swift */; };
+		1097D5742408A44300920919 /* UserList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 1097D5732408A44300920919 /* UserList.graphql */; };
+		1097D5772408A5CC00920919 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1097D5762408A5CC00920919 /* User.swift */; };
+		10BC8529240CA10E003D5AE5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BC8528240CA10E003D5AE5 /* Network.swift */; };
+		10E26EEB240DED2F005A93D3 /* CreateUser.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 10E26EEA240DED2F005A93D3 /* CreateUser.graphql */; };
+		620F4066EF082172EA1D441F /* Pods_J_UserManagerment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6605DD0097C81602D6A5EC17 /* Pods_J_UserManagerment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10155E14242C305E00E5C73E /* UserDetail.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = UserDetail.graphql; sourceTree = "<group>"; };
+		10155E16242C356C00E5C73E /* RemoveUser.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = RemoveUser.graphql; sourceTree = "<group>"; };
 		101634FA2404B4DF00E47B1A /* J.UserManagerment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = J.UserManagerment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		101634FD2404B4DF00E47B1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		101634FF2404B4DF00E47B1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		101635012404B4DF00E47B1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		101635042404B4DF00E47B1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		101635062404B4E100E47B1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		101635092404B4E100E47B1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1016350B2404B4E100E47B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		101635132404F85400E47B1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		107797C92429A5A100BB899C /* UserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
+		107797CD2429A68B00BB899C /* UserListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewController.swift; sourceTree = "<group>"; };
+		1097D5712408A34000920919 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		1097D5732408A44300920919 /* UserList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; name = UserList.graphql; path = "../New Group/UserList.graphql"; sourceTree = "<group>"; };
+		1097D5762408A5CC00920919 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		10BC8528240CA10E003D5AE5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		10E26EEA240DED2F005A93D3 /* CreateUser.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = CreateUser.graphql; sourceTree = "<group>"; };
+		236C19C5EB2F06D32DBDBB07 /* Pods-J.UserManagerment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-J.UserManagerment.release.xcconfig"; path = "Target Support Files/Pods-J.UserManagerment/Pods-J.UserManagerment.release.xcconfig"; sourceTree = "<group>"; };
+		6605DD0097C81602D6A5EC17 /* Pods_J_UserManagerment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_J_UserManagerment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D36E833FB51D7FCDE94A13 /* Pods-J.UserManagerment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-J.UserManagerment.debug.xcconfig"; path = "Target Support Files/Pods-J.UserManagerment/Pods-J.UserManagerment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101635142404F85400E47B1A /* UIKit.framework in Frameworks */,
+				620F4066EF082172EA1D441F /* Pods_J_UserManagerment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +66,8 @@
 			children = (
 				101634FC2404B4DF00E47B1A /* J.UserManagerment */,
 				101634FB2404B4DF00E47B1A /* Products */,
+				101635122404F85400E47B1A /* Frameworks */,
+				9BD889D44A7559D9ECE0DD8B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,98 @@
 		101634FC2404B4DF00E47B1A /* J.UserManagerment */ = {
 			isa = PBXGroup;
 			children = (
+				107797CB2429A67800BB899C /* ViewController */,
+				107797C72429A56700BB899C /* View */,
+				10BC852D240CA4A6003D5AE5 /* GraphQL */,
+				10BC8526240CA0FE003D5AE5 /* Util */,
+				1097D5752408A5C300920919 /* Model */,
 				101634FD2404B4DF00E47B1A /* AppDelegate.swift */,
 				101634FF2404B4DF00E47B1A /* SceneDelegate.swift */,
-				101635012404B4DF00E47B1A /* ViewController.swift */,
 				101635032404B4DF00E47B1A /* Main.storyboard */,
 				101635062404B4E100E47B1A /* Assets.xcassets */,
 				101635082404B4E100E47B1A /* LaunchScreen.storyboard */,
 				1016350B2404B4E100E47B1A /* Info.plist */,
+				1097D5712408A34000920919 /* API.swift */,
 			);
 			path = J.UserManagerment;
+			sourceTree = "<group>";
+		};
+		101635122404F85400E47B1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				101635132404F85400E47B1A /* UIKit.framework */,
+				6605DD0097C81602D6A5EC17 /* Pods_J_UserManagerment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		107797C72429A56700BB899C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				107797C82429A56E00BB899C /* UserTableCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		107797C82429A56E00BB899C /* UserTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				107797C92429A5A100BB899C /* UserListCell.swift */,
+			);
+			name = UserTableCell;
+			path = "../New Group1/UserTableCell";
+			sourceTree = "<group>";
+		};
+		107797CB2429A67800BB899C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				107797CD2429A68B00BB899C /* UserListTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1097D5752408A5C300920919 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1097D5762408A5CC00920919 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10BC8526240CA0FE003D5AE5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				10BC8527240CA106003D5AE5 /* Network */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		10BC8527240CA106003D5AE5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				10BC8528240CA10E003D5AE5 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		10BC852D240CA4A6003D5AE5 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				1097D5732408A44300920919 /* UserList.graphql */,
+				10E26EEA240DED2F005A93D3 /* CreateUser.graphql */,
+				10155E14242C305E00E5C73E /* UserDetail.graphql */,
+				10155E16242C356C00E5C73E /* RemoveUser.graphql */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		9BD889D44A7559D9ECE0DD8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88D36E833FB51D7FCDE94A13 /* Pods-J.UserManagerment.debug.xcconfig */,
+				236C19C5EB2F06D32DBDBB07 /* Pods-J.UserManagerment.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1016350E2404B4E100E47B1A /* Build configuration list for PBXNativeTarget "J.UserManagerment" */;
 			buildPhases = (
+				F9CDD34D8568EF6D1264B87C /* [CP] Check Pods Manifest.lock */,
 				101634F62404B4DF00E47B1A /* Sources */,
 				101634F72404B4DF00E47B1A /* Frameworks */,
 				101634F82404B4DF00E47B1A /* Resources */,
+				8CBBFB9381B9B63E5D92B1A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +236,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E26EEB240DED2F005A93D3 /* CreateUser.graphql in Resources */,
+				10155E15242C305E00E5C73E /* UserDetail.graphql in Resources */,
+				10155E17242C356C00E5C73E /* RemoveUser.graphql in Resources */,
 				1016350A2404B4E100E47B1A /* LaunchScreen.storyboard in Resources */,
+				1097D5742408A44300920919 /* UserList.graphql in Resources */,
 				101635072404B4E100E47B1A /* Assets.xcassets in Resources */,
 				101635052404B4DF00E47B1A /* Main.storyboard in Resources */,
 			);
@@ -133,13 +248,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CBBFB9381B9B63E5D92B1A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-J.UserManagerment/Pods-J.UserManagerment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-J.UserManagerment/Pods-J.UserManagerment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-J.UserManagerment/Pods-J.UserManagerment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9CDD34D8568EF6D1264B87C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-J.UserManagerment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		101634F62404B4DF00E47B1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				101635022404B4DF00E47B1A /* ViewController.swift in Sources */,
+				107797CA2429A5A100BB899C /* UserListCell.swift in Sources */,
+				107797CE2429A68B00BB899C /* UserListTableViewController.swift in Sources */,
 				101634FE2404B4DF00E47B1A /* AppDelegate.swift in Sources */,
+				10BC8529240CA10E003D5AE5 /* Network.swift in Sources */,
+				1097D5722408A34000920919 /* API.swift in Sources */,
+				1097D5772408A5CC00920919 /* User.swift in Sources */,
 				101635002404B4DF00E47B1A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +443,7 @@
 		};
 		1016350F2404B4E100E47B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D36E833FB51D7FCDE94A13 /* Pods-J.UserManagerment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +462,7 @@
 		};
 		101635102404B4E100E47B1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236C19C5EB2F06D32DBDBB07 /* Pods-J.UserManagerment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,9 @@
+#import "./UserDetail.graphql"
+
+mutation CreateUser($name: String, $age: Int, $gender: String) {
+  createUser(name: $name, age: $age, gender: $gender) {
+    __typename
+    _id
+    ...UserDetail
+  }
+}
